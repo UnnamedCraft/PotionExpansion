@@ -14,5 +14,5 @@ public class PotionRecipeType {
         AlchemicRecipe alchemicRecipe = new AlchemicRecipe(Arrays.asList(recipe), output);
         AlchemicStation station = (AlchemicStation) PotionItems.ALCHEMIC_STATION.getItem();
         station.getAlchemicRecipes().add(alchemicRecipe);
-    }, "", "&a&oCraft it in an Alchemic station");
+    }, "", "&a&o在高级酿造台中制作");
 }
