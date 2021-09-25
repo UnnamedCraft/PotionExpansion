@@ -1,6 +1,6 @@
-# PotionExpansion
-This is an addon for slimefun that adds new potions with legal xray!<br>
-The idea of this addon is from [Potions Master](https://www.curseforge.com/minecraft/mc-mods/potionsmaster) mod.
+# 药水科技
+这是一个粘液科技附属插件，为你的游戏添加矿物透视药水!<br>
+这个插件的想法来自于 [Potions Master](https://www.curseforge.com/minecraft/mc-mods/potionsmaster) mod.
 
 ## Potions
 - CoalSight
