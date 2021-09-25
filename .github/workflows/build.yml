@@ -14,7 +14,7 @@ jobs:
 
     runs-on: ubuntu-latest
     
-    name: Build Plugin
+    name: Build plugin
 
     steps:
     
@@ -40,4 +40,4 @@ jobs:
       uses: actions/upload-artifact@v2.2.4
       with:
         name: PotionExpansion-${{ steps.vars.outputs.branch }}-${{ steps.vars.outputs.sha_short }}
-        path: targets/*
+        path: target/*.jar
