@@ -21,7 +21,7 @@ import java.util.List;
 public class XRayUtil {
     @ParametersAreNonnullByDefault
     public static void showPathsToMaterial(Player player, Material material, Color color, int r) {
-        Validate.notNull(material, "Material can't be null");
+        Validate.notNull(material, "材料不能为空");
         Location start = player.getLocation().clone().add(0, 1, 0);
         Block startBlock = player.getLocation().getBlock();
 
@@ -46,7 +46,7 @@ public class XRayUtil {
     @ParametersAreNonnullByDefault
     private static void drawLine(Color color, Location point1, Location point2, double space) {
         World world = point1.getWorld();
-        Validate.isTrue(point2.getWorld().equals(world), "Lines cannot be in different worlds!");
+        Validate.isTrue(point2.getWorld().equals(world), "指向性线条只能在同一个世界中显示！");
         double distance = point1.distance(point2);
         Vector p1 = point1.toVector();
         Vector p2 = point2.toVector();

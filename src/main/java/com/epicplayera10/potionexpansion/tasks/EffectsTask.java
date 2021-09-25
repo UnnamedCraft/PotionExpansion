@@ -55,19 +55,19 @@ public class EffectsTask extends BukkitRunnable {
 
     public void showEffects(@Nonnull Player player, boolean actionBar) {
         StringBuilder message = new StringBuilder();
-        message.append(ChatColors.color("&aEffects: &e"));
+        message.append(ChatColors.color("&a效果: &e"));
 
         boolean first = true;
         for (PotionSightEffect potionSightEffect : EffectsManager.getPlayerEffects(player)) {
-            SimpleDateFormat formatter = new SimpleDateFormat("mm'm' ss's'");
+            SimpleDateFormat formatter = new SimpleDateFormat("mm '分' ss '秒'");
             String formattedTime = formatter.format(new Date(potionSightEffect.getTime() * 1000L));
             if (first) {
                 message.append(ChatUtils.humanize(potionSightEffect.getType().toString())+" ");
-                message.append(ChatColors.color("&aTime: &e"+formattedTime));
+                message.append(ChatColors.color("&a时间: &e"+formattedTime));
                 first = false;
             } else {
                 message.append(ChatColors.color("&a, &e"+ChatUtils.humanize(potionSightEffect.getType().toString())+" "));
-                message.append(ChatColors.color("&aTime: &e"+formattedTime));
+                message.append(ChatColors.color("&a时间: &e"+formattedTime));
             }
         }
 
