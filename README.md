@@ -3,7 +3,7 @@
 <p align="center">
     这是一个粘液科技附属插件，为你的游戏添加矿物透视药水！
     <br />
-    这个插件的想法来自于 [Potions Master](https://www.curseforge.com/minecraft/mc-mods/potionsmaster) mod。
+    这个插件的想法来自于 <a href="https://www.curseforge.com/minecraft/mc-mods/potionsmaster">Potions Master</a> 模组。
     <br /><br />
     <a href="https://github.com/UnnamedCraft/PotionExpansion/actions">
         <img alt="构建状态" src="https://img.shields.io/github/workflow/status/UnnamedCraft/PotionExpansion/Java%20CI?style=for-the-badge"></img>
@@ -43,4 +43,5 @@
 - `/pe showEffects` - 在聊天栏种显示自定义效果（自定义效果默认情况下会自动显示在快捷物品栏上方）
 
 ## 配置
+
 点击[这里](https://github.com/EpicPlayerA10/PotionExpansion/wiki)。
