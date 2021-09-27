@@ -34,7 +34,7 @@
 
 ## 下载
 
-你可以从 [GitHub Actions](https://github.com/UnnamedCraft/PotionExpansion/actions) 页面下载此插件。
+在本存储库的 [Github Actions 页面](https://github.com/UnnamedCraft/PotionExpansion/actions)可以下载最新的构建。
 
 ## 指令
 
